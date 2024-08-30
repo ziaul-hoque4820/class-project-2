@@ -1,0 +1,461 @@
+/* Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Overlock:wght@400;700;900&display=swap');
+
+/* Common CSS */
+:root {
+    --heading-font: "Overlock", sans-serif;
+    --body-font: "Lato", sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+}
+.section-margin {
+    margin-top: 80px;
+}
+
+/*  Heading Section Start  */
+.heading {
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    h1 {
+        font-size: 145px;
+        line-height: 140px;
+        font-weight: 700;
+        margin-bottom: 47px;
+    }
+    .text {
+        margin-left: 190px;
+
+        span {
+            font-size: 36px;
+            line-height: 28px;
+            font-weight: 600;
+            padding: 5px 52px; 
+            background-color: #E7272D;
+            font-family: var(--heading-font);
+        }
+    }
+    .text-book {
+        font-size: 24px;
+        margin-top: 20px;
+        padding: 15px 30px;
+        color: #fff;
+    }
+    .head-line {
+        width: 200px;
+        height: 0;
+        border: 1px solid #E7272D;
+        margin-top: 55px;
+        margin-left: 20px;
+    }
+}
+
+
+
+/* Banner Section Start */
+
+.banner {
+    h2 {
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: 700;
+        color: #1B1B1B;
+        padding:0 106px 0 0;
+    }
+    .banner-item-1 {
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #666666;
+            text-align: justify;
+        }
+        .custom-btn {
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            background-color: #E7272D;
+
+            a {
+                color: #ffffff;
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 600;
+            }
+        }
+    }
+    .banner-item-2 {
+        padding: 10px 15px;
+        background-color: #1B1B1B;
+        /* background-image: url(../image/footer-banner-1.jpg); */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        span {
+            font-size: 16px;
+            font-family: var(--heading-font);
+            color: #ffffff;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 5px;
+            color: #ffffff;
+        }
+    }
+}
+    
+/* Food Item Start */
+
+.food-area {
+    .food-text {
+        h2 {
+            font-size: 45px;
+            line-height: 67px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .food-menu-list {
+            margin-bottom: 50px;
+
+            ul {
+            border: 1px solid #CCCCCC;
+            border-radius: 10px;
+            width: 900px;
+            margin: auto;
+            padding: 15px;
+            }
+
+            .list-margin {
+                margin: auto;
+                /* background-color: #CCCCCC; */
+                border-radius: 10px;
+                padding: 0 20px;
+
+                & a:hover{
+                    border-radius: 5px;
+                    background-color: #E7272D;
+                    color: #ffffff;
+                }
+            }
+        }
+
+    }
+    .food-item {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+        .food-text-1 {
+            padding: 10px 0;
+            background-color: #fff;
+            width:260px;
+            border-top-right-radius: 10px;
+            position: absolute;
+            bottom: -1px;
+            left: 0px;
+            border-left: 1px solid #CCCCCC;
+            strong {
+                padding-left: 10px;
+                font-size: 18px;
+                /* background-color: #CCCCCC; */
+            }
+            i {
+                color: #E7272D;
+                padding-left: 12px;
+            }
+            span {
+                font-size: 16px;
+                padding: 0 5px;
+            }
+
+        }
+        .food-text-area {
+            border: 1px solid #CCCCCC;
+            padding: 10px;
+            /* background-color: #CCCCCC; */
+            h6 {
+                font-size: 22px;
+                /* margin: 13px 0; */
+            }
+            .food-text-2{
+                display: inline-block;
+                p {
+                    font-size: 16px;
+                    padding-right: 10px;
+                }
+                i {
+                    font-size: 10px;
+                    color: #E7272D;
+                    padding-top:7px ;
+                    margin-right: 10px;
+                }   
+            }
+            .food-text-3 {
+                border: 1px solid #E7272D;
+                border-radius: 10px;
+                justify-content: center;
+                i {
+                    font-size: 30px;
+                    color: #E7272D;
+                    padding: 10px;
+                }
+                p {
+                    color: #E7272D;
+                    font-size: 18px;
+                    margin-left: 10px;
+                    font-weight: 600;
+                    margin-top: 10px;
+                }
+            }
+
+        }    
+    }
+
+}
+
+
+
+/* Booking Section Start */
+
+.booking-area {
+    background-image: url(../image/banner-book-table.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+
+    h2 {
+        color: #fff;
+        font-size: 48px;
+        line-height: 64px;
+        /* margin: 60px 0 15px; */
+    }
+    p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: justify;
+    }
+    .booking-item {
+        margin-top: 40px;
+        p {
+            color: #fff;
+            font-size: 22px;
+            line-height: 28px;
+            margin-right: 20px;
+            margin-bottom: 0;
+
+        }
+        span {
+            color: #fff;
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+    form {
+        background-color: #fff;
+        padding: 30px;
+        margin: 20px 20px 0px 0px;
+        border-radius: 10px;
+        input {
+            width: 570px;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .food-btn {
+            width: 150px;
+            height: 50px;
+            background-color: #E7272D;
+            display: inline-block;
+            margin-top: 15px;
+
+            a{
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+
+    }
+}
+
+/* Food Gallery Start */
+
+.food-gallery {
+    h2 {
+        font-size: 45px;
+        line-height: 67px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/* About Section Start */
+.about {
+    background-color: #1B1B1B;
+    padding: 60px;
+
+    .line {
+        width: 474px;
+        height: 0;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        margin: 40px 20px 0;
+    }
+
+    .contact {
+        display: flex;
+        margin-top: 50px;
+
+        .social-area {
+            display: flex;
+            width: 40%;
+
+            .social-text-1{
+                width: 50%;
+                strong {
+                    font-size: 22px;
+                    line-height: 32px;
+                    color: #fff;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #fff;
+                }
+                i {
+                    width: 35px;
+                    height: 35px;
+                    background-color: #3F3F3F;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 35px;
+                    margin-right: 10px;
+                    margin-top: 20px;
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+            .social-text-2 {
+                strong {
+                    font-size: 22px;
+                    line-height: 32px;
+                    color: #fff;
+                }
+                p {
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+             
+
+        }
+        .contact-area {
+            display: flex;
+            width: 60%;
+
+            .contact-item-1 {
+                width: 40%;
+                strong {
+                    font-size: 22px;
+                    line-height: 32px;
+                    /* color: #fff; */
+                    margin-bottom: 30px;
+                    color: #fff;
+                }
+                i {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #E7272D;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 50px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    color: #fff;
+                }
+                p {
+                    font-size: 16px;
+                    color: #fff;
+                }
+                a {
+                    color: #fff;
+                }
+            }
+            .contact-item-2 {
+                width: 60%;
+
+                strong {
+                    font-size: 22px;
+                    font-weight: 32px;
+                    color: #fff;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    width: 300px;
+                    color: #fff;
+                }
+                input {
+                    border: 1px solid rgba(255, 255, 255, 0.30);
+                    width: 300px;
+                    padding: 15px 10px;
+                }
+                button {
+                    width: 150px;
+                    height: 50px;
+                    color: #fff;
+                    background-color: #E7272D;
+                    display: inline-block;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+/* Footer Section Start */
+
+.footer {
+    background-color: #262525;
+    padding: 20px 0;
+
+    p {
+        text-align: center;
+        color: #fff;
+    }
+}
+
+
+
+
